@@ -1,0 +1,90 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/CurriculumDetail/CurriculumDetail",
+          "pathName": "pages/CurriculumDetail/CurriculumDetail",
+          "query": "id=6",
+          "scene": null
+        },
+        {
+          "name": "pages/WorksMounting/WorksMounting",
+          "pathName": "pages/WorksMounting/WorksMounting",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/CurriculumPay/CurriculumPay",
+          "pathName": "pages/CurriculumPay/CurriculumPay",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/WorksShow/WorksShow",
+          "pathName": "pages/WorksShow/WorksShow",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Logistics/Logistics",
+          "pathName": "pages/Logistics/Logistics",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/CurriculumPay/CurriculumPay",
+          "pathName": "pages/CurriculumPay/CurriculumPay",
+          "query": "id=6",
+          "scene": null
+        },
+        {
+          "name": "pages/WorksShow/WorksShow",
+          "pathName": "pages/WorksShow/WorksShow",
+          "query": "id=6",
+          "scene": null
+        },
+        {
+          "name": "pages/WorksDetail/WorksDetail",
+          "pathName": "pages/WorksDetail/WorksDetail",
+          "query": "id=36",
+          "scene": null
+        },
+        {
+          "name": "pages/WorksMounting/WorksMounting",
+          "pathName": "pages/WorksMounting/WorksMounting",
+          "query": "url=http://tmp/pfAkEgNCuMPHe7dbb33b4b0a10b21c21925a3920e77a.jpg",
+          "scene": null
+        },
+        {
+          "name": "pages/CardDetail/CardDetail",
+          "pathName": "pages/CardDetail/CardDetail",
+          "query": "type=1&id=3",
+          "scene": null
+        },
+        {
+          "name": "pages/WorksAndCollect/WorksAndCollect",
+          "pathName": "pages/WorksAndCollect/WorksAndCollect",
+          "query": "type=1&id=3",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

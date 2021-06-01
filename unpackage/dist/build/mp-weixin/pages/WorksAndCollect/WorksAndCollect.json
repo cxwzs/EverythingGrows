@@ -1,0 +1,15 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet",
+    "works-item": "/pages/WorksAndCollect/components/WorksItem",
+    "collection-works": "/pages/WorksAndCollect/components/CollectionWorks",
+    "collection-article-item": "/pages/WorksAndCollect/components/CollectionArticle",
+    "collection-curriculum": "/pages/WorksAndCollect/components/CollectionCurriculum",
+    "collection-goods-item": "/pages/WorksAndCollect/components/CollectionGoods"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "亲子分享",
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "parenting": "/pages/ParentingShare/components/Parenting"
+  }
+}

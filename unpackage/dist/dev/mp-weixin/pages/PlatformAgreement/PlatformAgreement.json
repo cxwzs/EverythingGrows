@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "平台协议",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

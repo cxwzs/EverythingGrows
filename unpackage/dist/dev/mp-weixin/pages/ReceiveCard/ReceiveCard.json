@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "领取万物卡",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-parse": "/uview-ui/components/u-parse/u-parse"
+  }
+}

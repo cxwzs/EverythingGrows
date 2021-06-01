@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* ui库uview-ui 引入 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-cd5150b4 {
+  width: 100%;
+}
+.content.data-v-cd5150b4 {
+  width: 100%;
+  padding: 30rpx 40rpx 0 40rpx;
+  background-color: #fff;
+}
+.top.data-v-cd5150b4 {
+  width: 100%;
+  height: 280rpx;
+  position: relative;
+  z-index: 5;
+}
+.top-bg.data-v-cd5150b4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 6;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.top-content.data-v-cd5150b4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 7;
+  padding: 40rpx 30rpx;
+}
+.top-content-text.data-v-cd5150b4 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.top-content-text > view.data-v-cd5150b4 {
+  font-size: 30rpx;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.top-content-text > text.data-v-cd5150b4 {
+  font-size: 24rpx;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.top-content-num.data-v-cd5150b4 {
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  left: 50%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 60rpx;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.title.data-v-cd5150b4 {
+  width: 100%;
+  padding: 20rpx 0;
+  margin-top: 50rpx;
+  text-align: left;
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: 600;
+  background-color: #fff;
+}
+.btn.data-v-cd5150b4 {
+  width: 100%;
+  height: 140rpx;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border-top: 2rpx solid #F6F4F4;
+  padding: 0 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.btn-num.data-v-cd5150b4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.btn-num > text.data-v-cd5150b4 {
+  font-size: 24rpx;
+  color: #333333;
+  font-weight: 600;
+}
+.btn-num > view.data-v-cd5150b4 {
+  font-size: 36rpx;
+  color: #FD5401;
+  font-weight: 600;
+}
+.btn-nr.data-v-cd5150b4 {
+  width: 209rpx;
+  height: 84rpx;
+  -webkit-border-radius: 42rpx;
+          border-radius: 42rpx;
+  text-align: center;
+  line-height: 84rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  font-weight: 600;
+  background: -webkit-linear-gradient(118deg, #77C881, #62BD6A);
+  background: linear-gradient(-28deg, #77C881, #62BD6A);
+}
+.list.data-v-cd5150b4 {
+  width: 100%;
+  padding: 10rpx 40rpx 40rpx 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.list-item.data-v-cd5150b4 {
+  width: 206rpx;
+  height: 140rpx;
+  background: #F2F2F2;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-right: 26rpx;
+  margin-top: 26rpx;
+}
+.list-item > text.data-v-cd5150b4 {
+  font-size: 28rpx;
+  color: #FD5401;
+  font-weight: 600;
+}
+.list-item-num.data-v-cd5150b4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.list-item-num > text.data-v-cd5150b4 {
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: 600;
+}
+.list-item-num-icon.data-v-cd5150b4 {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 10rpx;
+}
+.list-item-active > text.data-v-cd5150b4 {
+  color: #fff !important;
+}
+.list-item.data-v-cd5150b4:nth-of-type(3n+3) {
+  margin-right: 0;
+}
+.list-active.data-v-cd5150b4 {
+  background-color: #77C881 !important;
+}
+.list-active > text.data-v-cd5150b4 {
+  color: #fff !important;
+}
+

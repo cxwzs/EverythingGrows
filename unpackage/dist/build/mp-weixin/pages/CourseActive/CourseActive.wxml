@@ -1,0 +1,1 @@
+<view class="container data-v-c836c82a"><input type="text" placeholder="请填写激活码" placeholder-class="inps" data-event-opts="{{[['input',[['__set_model',['','code','$event',[]]]]]]}}" value="{{code}}" bindinput="__e" class="data-v-c836c82a"/><view data-event-opts="{{[['tap',[['bindActive',['$event']]]]]}}" class="btn data-v-c836c82a" bindtap="__e">激活</view></view>

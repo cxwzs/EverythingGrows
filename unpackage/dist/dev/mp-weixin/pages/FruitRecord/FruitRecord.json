@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "果实记录",
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky"
+  }
+}

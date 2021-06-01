@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "立即支付",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-message-input": "/uview-ui/components/u-message-input/u-message-input"
+  }
+}

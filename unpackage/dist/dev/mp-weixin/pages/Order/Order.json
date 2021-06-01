@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "empty": "/pages/Order/components/empty",
+    "cancel-order": "/pages/Order/components/CancelOrder"
+  }
+}

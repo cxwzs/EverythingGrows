@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "物流信息",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-time-line": "/uview-ui/components/u-time-line/u-time-line",
+    "u-time-line-item": "/uview-ui/components/u-time-line-item/u-time-line-item"
+  }
+}

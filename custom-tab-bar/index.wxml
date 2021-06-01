@@ -1,0 +1,8 @@
+<view class="tabbar {{iPhoneX?'_iPhoneX':''}}">
+	<view class="tabbar-item" wx:for="{{urls}}" wx:key="{{index}}" catchtap="switchTap" data-type="{{item.type}}" data-page_path="{{item.pagePath}}">
+		<view class="tabbar-item-icon">
+			<image src="{{_tabbat==index?item.selectedIconPath:item.iconPath}}"></image>
+		</view>
+		<text class="{{_tabbat==index?'tabbar-item-active':''}}">{{item.text}}</text>
+	</view>
+</view>

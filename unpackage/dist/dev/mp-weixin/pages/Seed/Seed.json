@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "万物种子",
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky"
+  }
+}

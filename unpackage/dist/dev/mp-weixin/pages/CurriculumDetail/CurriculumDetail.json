@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "课程",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-message-input": "/uview-ui/components/u-message-input/u-message-input"
+  }
+}

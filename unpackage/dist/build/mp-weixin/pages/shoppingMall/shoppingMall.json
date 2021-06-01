@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商城",
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "goods": "/pages/shoppingMall/components/Goods"
+  }
+}

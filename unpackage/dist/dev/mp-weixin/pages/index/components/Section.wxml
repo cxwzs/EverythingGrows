@@ -1,0 +1,1 @@
+<view class="container data-v-3a2ad422"><view class="title data-v-3a2ad422"><view class="title-left data-v-3a2ad422"><view class="data-v-3a2ad422"></view><text class="data-v-3a2ad422">{{title}}</text></view><text data-event-opts="{{[['tap',[['toMore',['$event']]]]]}}" bindtap="__e" class="data-v-3a2ad422">查看更多</text></view></view>

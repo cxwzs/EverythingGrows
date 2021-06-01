@@ -1,0 +1,104 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/curriculum/curriculum",
+    "pages/upload/upload",
+    "pages/shoppingMall/shoppingMall",
+    "pages/mine/mine",
+    "pages/ArticleDetail/ArticleDetail",
+    "pages/WorksShow/WorksShow",
+    "pages/ParentingShare/ParentingShare",
+    "pages/CurriculumDetail/CurriculumDetail",
+    "pages/GoodsDetail/GoodsDetail",
+    "pages/ShoppingCart/ShoppingCart",
+    "pages/ConfirmOrder/ConfirmOrder",
+    "pages/Address/Address",
+    "pages/AddressDetail/AddressDetail",
+    "pages/Pay/Pay",
+    "pages/PayResult/PayResult",
+    "pages/WorksMounting/WorksMounting",
+    "pages/UserInfo/UserInfo",
+    "pages/UpdatePhone/UpdatePhone",
+    "pages/FruitMall/FruitMall",
+    "pages/FruitRecord/FruitRecord",
+    "pages/Rule/Rule",
+    "pages/ExchangeConfirmOrder/ExchangeConfirmOrder",
+    "pages/ExchangeRecord/ExchangeRecord",
+    "pages/Seed/Seed",
+    "pages/AllThingsCard/AllThingsCard",
+    "pages/CardDetail/CardDetail",
+    "pages/CardMore/CardMore",
+    "pages/Coupon/Coupon",
+    "pages/FromSeed/FromSeed",
+    "pages/Order/Order",
+    "pages/OrderDetail/OrderDetail",
+    "pages/Set/Set",
+    "pages/Feedback/Feedback",
+    "pages/PlatformAgreement/PlatformAgreement",
+    "pages/WorksAndCollect/WorksAndCollect",
+    "pages/Login/Login",
+    "pages/Register/Register",
+    "pages/demo/demo",
+    "pages/WorksDetail/WorksDetail",
+    "pages/ConfirmOrderCoupon/ConfirmOrderCoupon",
+    "pages/Regund/Regund",
+    "pages/CurriculumList/CurriculumList",
+    "pages/CurriculumClass/CurriculumClass",
+    "pages/CurriculumMore/CurriculumMore",
+    "pages/SetPassword/SetPassword",
+    "pages/WebView/WebView",
+    "pages/ReceiveCard/ReceiveCard",
+    "pages/ExchangeRecordDetail/ExchangeRecordDetail",
+    "pages/CourseActive/CourseActive",
+    "pages/CurriculumPay/CurriculumPay",
+    "pages/Logistics/Logistics"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "万物生长",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#ADADAD",
+    "selectedColor": "#77C800",
+    "list": [
+      {
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/index_active.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tabbar/curriculum.png",
+        "selectedIconPath": "static/tabbar/curriculum_active.png",
+        "pagePath": "pages/curriculum/curriculum",
+        "text": "课程"
+      },
+      {
+        "iconPath": "static/tabbar/upload.png",
+        "selectedIconPath": "static/tabbar/upload.png",
+        "pagePath": "pages/upload/upload",
+        "text": "上传"
+      },
+      {
+        "iconPath": "static/tabbar/shoppingMall.png",
+        "selectedIconPath": "static/tabbar/shoppingMall_active.png",
+        "pagePath": "pages/shoppingMall/shoppingMall",
+        "text": "商城"
+      },
+      {
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine_active.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "empty-view": "/components/emptyView/emptyView"
+  },
+  "sitemapLocation": "sitemap.json"
+}

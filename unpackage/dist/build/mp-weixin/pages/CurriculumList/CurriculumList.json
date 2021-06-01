@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "empty-view": "/components/emptyView/emptyView",
+    "curriculum": "/pages/CurriculumList/components/Curriculum"
+  }
+}

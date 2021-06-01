@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "vip-code": "/components/VipCode/VipCode",
+    "section": "/pages/index/components/Section",
+    "parenting": "/pages/index/components/Parenting",
+    "works": "/pages/index/components/Works"
+  }
+}

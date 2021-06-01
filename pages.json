@@ -1,0 +1,360 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"enablePullDownRefresh":true,
+				"backgroundTextStyle":"dark"
+			}
+		}
+	    ,{
+            "path" : "pages/curriculum/curriculum",
+            "style" : {
+				"navigationBarTitleText": "课程",
+				"navigationBarBackgroundColor":"#77C881",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/upload/upload",
+            "style" : {
+				"navigationBarTitleText": "上传"
+			}
+        }
+        ,{
+            "path" : "pages/shoppingMall/shoppingMall",
+            "style" : {
+				"navigationBarTitleText": "商城"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+        }
+        ,{
+            "path" : "pages/ArticleDetail/ArticleDetail",
+            "style" : {
+				"navigationBarTitleText": "文章详情"
+			}
+        }
+        ,{
+            "path" : "pages/WorksShow/WorksShow",
+            "style" : {
+				"navigationBarTitleText": "作品展示"
+			}
+        }
+        ,{
+            "path" : "pages/ParentingShare/ParentingShare",
+            "style" : {
+				"navigationBarTitleText": "亲子分享"
+			}
+        }
+        ,{
+            "path" : "pages/CurriculumDetail/CurriculumDetail",
+            "style" : {
+				"navigationBarTitleText":"课程"
+			}
+        }
+        ,{
+            "path" : "pages/GoodsDetail/GoodsDetail",
+            "style" : {
+				"navigationBarTitleText":"商品详情"
+			}
+        }
+        ,{
+            "path" : "pages/ShoppingCart/ShoppingCart",
+            "style" : {
+				"navigationBarTitleText":"购物车"
+			}
+        }
+        ,{
+            "path" : "pages/ConfirmOrder/ConfirmOrder",
+            "style" : {
+				"navigationBarTitleText":"确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/Address/Address",
+            "style" : {
+				"navigationBarTitleText":"常用地址"
+			}
+        }
+        ,{
+            "path" : "pages/AddressDetail/AddressDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Pay/Pay",
+            "style" : {
+				"navigationBarTitleText":"支付界面"
+			}
+        }
+        ,{
+            "path" : "pages/PayResult/PayResult",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/WorksMounting/WorksMounting",
+            "style" : {
+				"navigationBarTitleText":"作品装裱"
+			}
+        }
+        ,{
+            "path" : "pages/UserInfo/UserInfo",
+            "style" : {
+				"navigationBarTitleText":"个人资料"
+			}
+        }
+        ,{
+            "path" : "pages/UpdatePhone/UpdatePhone",
+            "style" : {
+				"navigationBarTitleText":"更换手机号"
+			}
+        }
+        ,{
+            "path" : "pages/FruitMall/FruitMall",
+            "style" : {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+        }
+        ,{
+            "path" : "pages/FruitRecord/FruitRecord",
+            "style" : {
+				"navigationBarTitleText":"果实记录"
+			}
+        }
+        ,{
+            "path" : "pages/Rule/Rule",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ExchangeConfirmOrder/ExchangeConfirmOrder",
+            "style" : {
+				"navigationBarTitleText":"确认兑换"
+			}
+        }
+        ,{
+            "path" : "pages/ExchangeRecord/ExchangeRecord",
+            "style" : {
+				"navigationBarTitleText":"兑换记录"
+			}
+        }
+        ,{
+            "path" : "pages/Seed/Seed",
+            "style" : {
+				"navigationBarTitleText":"万物种子"
+			}
+        }
+        ,{
+            "path" : "pages/AllThingsCard/AllThingsCard",
+            "style" : {
+				"navigationBarTitleText":"万物有礼"
+			}
+        }
+        ,{
+            "path" : "pages/CardDetail/CardDetail",
+            "style" : {
+				"navigationBarTitleText":"万物卡"
+			}
+        }
+        ,{
+            "path" : "pages/CardMore/CardMore",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Coupon/Coupon",
+            "style" : {
+				"navigationBarTitleText":"我的优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/FromSeed/FromSeed",
+            "style" : {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+        }
+        ,{
+            "path" : "pages/Order/Order",
+            "style" : {
+				"navigationBarTitleText":"我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail/OrderDetail",
+            "style" : {
+				"navigationBarTitleText":"订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/Set/Set",
+            "style" : {
+				"navigationBarTitleText":"设置"
+			}
+        }
+        ,{
+            "path" : "pages/Feedback/Feedback",
+            "style" : {
+				"navigationBarTitleText":"意见反馈"
+			}
+        }
+        ,{
+            "path" : "pages/PlatformAgreement/PlatformAgreement",
+            "style" : {
+				"navigationBarTitleText":"平台协议"
+			}
+        }
+        ,{
+            "path" : "pages/WorksAndCollect/WorksAndCollect",
+            "style" : {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+        }
+        ,{
+            "path" : "pages/Login/Login",
+            "style" : {
+				"navigationBarTitleText":"登录"
+			}
+        }
+        ,{
+            "path" : "pages/Register/Register",
+            "style" : {
+				"navigationBarTitleText":"注册"
+			}
+        }
+        ,{
+            "path" : "pages/demo/demo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/WorksDetail/WorksDetail",
+            "style" : {
+				"navigationBarTitleText":"作品详情"
+			}
+        }
+        ,{
+            "path" : "pages/ConfirmOrderCoupon/ConfirmOrderCoupon",
+            "style" : {
+				"navigationBarTitleText":"优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/Regund/Regund",
+            "style" : {
+				"navigationBarTitleText":"申请退款"
+			}
+        }
+        ,{
+            "path" : "pages/CurriculumList/CurriculumList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/CurriculumClass/CurriculumClass",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/CurriculumMore/CurriculumMore",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/SetPassword/SetPassword",
+            "style" : {
+				"navigationBarTitleText": "确认密码"
+			}
+        }
+        ,{
+            "path" : "pages/WebView/WebView",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ReceiveCard/ReceiveCard",
+            "style" : {
+				"navigationBarTitleText": "领取万物卡"
+			}
+        }
+        ,{
+            "path" : "pages/ExchangeRecordDetail/ExchangeRecordDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/CourseActive/CourseActive",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程激活",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/CurriculumPay/CurriculumPay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "立即支付",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Logistics/Logistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "万物生长",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"custom": true,
+		"color":"#ADADAD",
+		"selectedColor":"#77C800",
+		"list":[
+			{
+				"iconPath":"static/tabbar/index.png",
+				"selectedIconPath":"static/tabbar/index_active.png",
+				"pagePath":"pages/index/index",
+				"text":"首页"
+			},
+			{
+				"iconPath":"static/tabbar/curriculum.png",
+				"selectedIconPath":"static/tabbar/curriculum_active.png",
+				"pagePath":"pages/curriculum/curriculum",
+				"text":"课程"
+			},
+			{
+				"iconPath":"static/tabbar/upload.png",
+				"selectedIconPath":"static/tabbar/upload.png",
+				"pagePath":"pages/upload/upload",
+				"text":"上传"
+			},
+			{
+				"iconPath":"static/tabbar/shoppingMall.png",
+				"selectedIconPath":"static/tabbar/shoppingMall_active.png",
+				"pagePath":"pages/shoppingMall/shoppingMall",
+				"text":"商城"
+			},
+			{
+				"iconPath":"static/tabbar/mine.png",
+				"selectedIconPath":"static/tabbar/mine_active.png",
+				"pagePath":"pages/mine/mine",
+				"text":"我的"
+			}
+		]
+	}
+}
